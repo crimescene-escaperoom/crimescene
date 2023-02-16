@@ -1,1 +1,0 @@
-window.location.href = "http://roc-escaperoom.ddns.net"
