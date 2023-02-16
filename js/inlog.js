@@ -5,7 +5,7 @@ const loginForm = document.querySelector("form")
 
 loginButton.addEventListener("click", (e) => {
     
-    if(loginUsername.value === "detective" && loginPassword.value === "iyj7LKj") {
+    if(loginUsername.value.toLowerCase() === "detective" && loginPassword.value === "iyj7LKj") {
         window.location.href = "ingelogd.html";
     } else {
         window.location.href = "foutantwoord.html";

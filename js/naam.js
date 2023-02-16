@@ -5,7 +5,7 @@ const naamForm = document.querySelector("form")
 
 naamButton.addEventListener("click", (e) => {
     
-    if(voornaam.value === "frank" && achternaam.value === "doedels") {
+    if(voornaam.value.toLowerCase() === "frank" && achternaam.value.toLowerCase() === "doedels") {
         window.location.href = "klaar.html";
     } else {
         window.location.href = "fout.html";
